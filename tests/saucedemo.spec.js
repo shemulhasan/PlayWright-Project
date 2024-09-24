@@ -2,7 +2,7 @@
 const { test } = require('@playwright/test');
 
 test.setTimeout(60000);
-test('Launch the sucedemo web link', async ({ page }) => {
+test('Launch the saucedemo web link', async ({ page }) => {
 
     await page.setViewportSize({ width: 1920, height: 1080 });
     await page.goto('https://www.saucedemo.com/')
